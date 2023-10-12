@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salahudin Kholik Prasetyono</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!-- link font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&family=IBM+Plex+Sans:wght@500&family=Playfair+Display:ital,wght@0,400;0,500;1,500&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- akhir link -->
+
+    <!-- Animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- akhir css -->
+
+    <!-- Ikon -->
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <!-- Akhir Ikon -->
+
+    <!-- my css -->
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/style.css')}}"
+    />
+    <!-- end css -->
+  </head>
+  <body>
+    <header
+      class="animate__animated animate__fadeIn animate__fast animate__delay-1s"
+      style="--animate-delay: 0.55s"
+    >
+      <!-- awal nav -->
+      <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="#">Salahudin Kholik Prasetyono</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#profiles">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contactme</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- akhir nav -->
+    </header>
+
+    <!-- Awal Home -->
+    <section id="home" class="animate__animated animate__fadeInDown">
+      <div class="box">
+        <h1>Welcome To My</h1>
+        <h1>Portofolio !</h1>
+      </div>
+    </section>
+    <!-- Akhir home -->
+
+    <!-- bagian awal -->
+    <section class="tampilan">
+      <div
+        class="jumbotron justify-content-center text-center text-white animate__animated animate__zoomIn animate__repeat-1"
+      >
+        <img
+          class="foto rounded-circle border border-4 border-primary"
+          src="{{url_for('static', filename='img/IMG202108091105061.jpg')}}"
+          alt="Salahudin Kholik Prasetyono"
+        />
+        <h1 class="display-4 mt-3">Salahudin Kholik Prasetyono</h1>
+        <p class="lead">Universitas - Ilmu Komputer</p>
+        <a href="#profiles">
+          <lord-icon
+            src="https://cdn.lordicon.com/rxufjlal.json"
+            trigger="click"
+            colors="primary:#121331"
+            style="width: 100px; height: 100px"
+          >
+          </lord-icon>
+        </a>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#273036"
+          fill-opacity="0.15"
+          d="M0,224L30,213.3C60,203,120,181,180,197.3C240,213,300,267,360,261.3C420,256,480,192,540,154.7C600,117,660,107,720,101.3C780,96,840,96,900,90.7C960,85,1020,75,1080,74.7C1140,75,1200,85,1260,80C1320,75,1380,53,1410,42.7L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir bagian -->
+
+    <!-- about -->
+    <section id="profiles">
+      <div class="container justify-content-center text-center">
+        <div class="row mb-3">
+          <div class="col fs-2">
+            <h2 style="color: rgba(182, 103, 6, 0.763)">About Me</h2>
+          </div>
+        </div>
+        <div
+          class="row d-flex flex-wrap justify-content-center text-white mb-4"
+        >
+          <div
+            class="col-md-5 py-4 mb-2 justify-content-center animate__animated animate__lightSpeedInLeft"
+          >
+            <img
+              src="{{url_for('static', filename='img/Buat_foto_cv.jpg')}}"
+              class="photo-profile border border-5 border-white"
+              alt="Salahudin Kholik Prasetyono"
+            />
+          </div>
+          <div
+            class="col-md-7 fs-3 justify-content-center animate__animated animate__lightSpeedInLeft"
+          >
+            <p style="text-align: justify">
+              Saya merupakan mahasiswa Bina Sarana Informatika cabang Kaliabang,
+              Bekasi dengan prodi Ilmu Komputer. Keinginan saya mengikuti
+              program ini adalah agar saya dapat menambah wawasan saya sesuai
+              dengan prodi yang saya jalankan saat ini sehingga dapat menjadi
+              bekal saat saya lulus nanti
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#dark"
+          fill-opacity="1"
+          d="M0,96L30,106.7C60,117,120,139,180,160C240,181,300,203,360,213.3C420,224,480,224,540,208C600,192,660,160,720,170.7C780,181,840,235,900,256C960,277,1020,267,1080,250.7C1140,235,1200,213,1260,186.7C1320,160,1380,128,1410,112L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir about -->
+
+    <!-- Projects -->
+    <section id="project">
+      <div class="container text-center mb-5">
+        <div class="hobi row" style="color: rgba(182, 103, 6, 0.763)">
+          <div class="col">
+            <h2>Hobbies</h2>
+          </div>
+        </div>
+        <div
+          class="row d-flex flex-wrap justify-content-center animate__animated animate__zoomIn"
+        >
+          <div class="col-md-4 mb-3">
+            <div class="hobbies card">
+              <img
+                src="{{url_for('static', filename='img/sean-do-EHLd2utEf68-unsplash.jpg')}}"
+                class="card-img-top"
+                alt="Bermain Game"
+              />
+              <div class="card-body">
+                <p class="card-text">Play Games</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="hobbies card">
+              <img
+                src="{{url_for('static', filename='img/glenn-carstens-peters-SL5d_8ywAAA-unsplash.jpg')}}"
+                class="card-img-top"
+                alt="edit video"
+              />
+              <div class="card-body">
+                <p class="card-text">Editing Video</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="hobbies card">
+              <img
+                src="{{url_for('static', filename='img/mollie-sivaram-yubCnXAA3H8-unsplash.jpg')}}"
+                class="card-img-top"
+                alt="menonton anime"
+              />
+              <div class="card-body">
+                <p class="card-text">Watching Anime</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="hobbies card">
+              <img
+                src="{{url_for('static', filename='img/soundtrap-5Wj_tk8_Ens-unsplash.jpg')}}"
+                class="card-img-top"
+                alt="mendengarkan musik"
+              />
+              <div class="card-body">
+                <p class="card-text">Listening Music</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="hobbies card">
+              <img
+                src="{{url_for('static', filename='img/edi-kurniawan-knR3v0TZ0IA-unsplash.jpg')}}"
+                class="card-img-top"
+                alt="mendengarkan musik"
+              />
+              <div class="card-body">
+                <p class="card-text">Listening Music</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#273036"
+          fill-opacity="0.15"
+          d="M0,192L48,208C96,224,192,256,288,245.3C384,235,480,181,576,133.3C672,85,768,43,864,37.3C960,32,1056,64,1152,90.7C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container justify-content-center text-white mb-3">
+        <div class="row text-center">
+          <div class="col" style="color: rgba(182, 103, 6, 0.763)">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form action>
+              <div class="form">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Full Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Input your full name"
+                />
+              </div>
+              <div class="form">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="form">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <div class="form d-flex justify-content-end">
+                <button
+                  type="submit"
+                  class="btn btn-outline-warning"
+                  style="font-weight: 700; color: rgb(195, 135, 5)"
+                >
+                  Kirim
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Contact -->
+    <footer id="footer">
+      <p class="text-center text-white fw-medium fst-italic shadow-sm pt-2">
+        &copy; Created by Salahudin Kholik Prasetyono
+      </p>
+      <p class="text-center fa-lg">
+        <i
+          class="fa fa-facebook-official text-white"
+          style="background-color: blue; margin-right: 1rem"
+        ></i>
+        <i
+          class="fa fa-instagram"
+          style="
+            background: linear-gradient(
+              45deg,
+              #405de6,
+              #5851db,
+              #833ab4,
+              #c13584,
+              #e1306c,
+              #fd1d1d
+            );
+            margin-right: 1rem;
+          "
+        ></i>
+        <i
+          class="fa fa-whatsapp"
+          aria-hidden="true"
+          style="
+            color: #fff;
+            background: linear-gradient(#25d366, #25d366) 14% 84%/16% 16%
+                no-repeat,
+              radial-gradient(#25d366 60%, transparent 0);
+          "
+        ></i>
+      </p>
+
+      <a
+        class="scroll-to-top mb-3 mr-3 fixed-bottom d-flex justify-content-end"
+      >
+        <img
+          class="animes mb-5 mr-3"
+          width="70"
+          height="70"
+          src="{{url_for('static', filename='img/dance.gif')}}"
+        />
+      </a>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(".animes").click(function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    window.onscroll = () =>
+      (document.querySelector(".animes").style.opacity =
+        window.scrollY > 500 ? 1 : 0);
+  </script>
+</html>
